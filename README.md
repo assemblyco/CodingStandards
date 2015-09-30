@@ -20,6 +20,30 @@ _September 30 2015_
 
 1. Keep functions short, and try to not go past three lines of indentation. If the function you are writing feels too complex break it out into sub tasks, or consider writing a Class to encapsulate it.
 2. When writing functional async code with callbacks, avoid nesting callbacks.
+3. Add white space where it makes sense in functions, to add to readability. Declare all your variables at the top of your function as if you were writing C. All variable declerations go at the top.
+    
+        function aFunction() {
+            var decleration1;
+            var decleration2;
+
+            // Do something
+        }
+        
+#### Constants
+
+1. Do not liter your code with static declerations for strings or numbers, use constants at the top of your file. Values 0 and -1 are allowed where appropriate. But this for example is bad: 
+
+
+        for (var i = 0; i < 7; i++) {};
+        
+**Instead should be:**
+        //Top of file
+        ITERATIONS = 7;
+        
+        for (var i = 0; i < ITERATIONS; i++) {};
+        
+2. Strings should be in a localization file, if available for your platform.
+3. Constants are always UPPERCASE. Use underscores _ to seperate words. A\_CONSTANT\_VALUE
 
 #### Syntax
 
@@ -52,17 +76,10 @@ _September 30 2015_
         }
         
 3. Do not exceed lines longer than the projects margin either 120 or 80. Break up lines of code where the language allows it. This stays true for mac languages swift and objective C as well. Even if Xcode has automatic line wrapping.
-4. Add white space where it makes sense in functions, to add to readability. Declare all your variables at the top of your function as if you were writing C. All variable declerations go at the top.
-    
-        function aFunction() {
-            var decleration1;
-            var decleration2;
 
-            // Do something
-        }
-        
-5. Tabs VS. Spaces. Prefer tabs as they are easier to maintain. Your indentation should follow the block of code you are writing. Proper indentation is highly important. Regardless spaces can be used in place of tabs. Use four spaces if you do. Use spaces if your IDE supports them. Be consitant with which ever you choose to use.
-        
+4. Tabs VS. Spaces. Prefer tabs as they are easier to maintain. Your indentation should follow the block of code you are writing. Proper indentation is highly important. Regardless spaces can be used in place of tabs. Use four spaces if you do. Use spaces if your IDE supports them. Be consitant with which ever you choose to use.
+   
+5. Method and Param naming: Use cammel case vs. underscore speration of parameters and variable names. Don't underscore the beginning of a private method. Ie. _superSecret or __superSuperSecret. Don't put m at the beginning of a variable. mBeautifulVariable.      
         
 #### Code Design
 
