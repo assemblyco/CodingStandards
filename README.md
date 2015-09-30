@@ -82,7 +82,7 @@ _September 30 2015_
 2. Keep your HTML clean, and less than 80 characters long. Create seperate HTML files to house complex structures.
 3. Organize your stylesheets logically, in sections. They can get long an unweidly and if they are organized into logic regions it makes maintenance for other programmers easier.
 4. Do not add javascript to your HTML file. Instead include it from a seperate .js file.
-5. Use an online parser before commiting any HTML. Make sure your html syntax is correct before commiting.
+5. Use an online parser before commiting any HTML. Make sure your HTML syntax is correct before commiting.
 6. Properly indent nested elements with tabs. Use an online tool to indent your HTML if you can't yourself.
 
 
