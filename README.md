@@ -61,7 +61,7 @@ _September 30 2015_
             // Do something
         }
         
-5. Tabs VS. Spaces. Prefer tabs as they are easier to maintain. Your indentation should follow the block of code you are writing. Proper indentation is highly important. Regardless spaces can be used in place of tabs. Use 4(four) spaces if you do. Use spaces if your IDE supports them. Be consitant with which ever you choose to use.
+5. Tabs VS. Spaces. Prefer tabs as they are easier to maintain. Your indentation should follow the block of code you are writing. Proper indentation is highly important. Regardless spaces can be used in place of tabs. Use four spaces if you do. Use spaces if your IDE supports them. Be consitant with which ever you choose to use.
         
         
 #### Code Design
@@ -84,3 +84,11 @@ _September 30 2015_
 4. Do not add javascript to your HTML file. Instead include it from a seperate .js file.
 5. Use an online parser before commiting any HTML. Make sure your html syntax is correct before commiting.
 6. Properly indent nested elements with tabs. Use an online tool to indent your HTML if you can't yourself.
+
+
+#### Commiting Code
+
+1. Do not commit broken code. Always make sure what you commit works. With the exception always commit code at the end of the day. If you must commit broken code, make sure it is in a seperate working branch.
+2. Break up your commits into logic commits commenting what was changed.
+3. Use feature branches when working with other programmers. Use the master branch when you are working alone.
+4. One programmer the lead on the project will handle merging regularly on team projects.
