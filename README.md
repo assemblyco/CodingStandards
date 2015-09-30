@@ -18,7 +18,7 @@ _September 30 2015_
 
 #### Functions
 
-1. Keep functions short, and try to not go past three lines of indentation. If the function you are writing feels to complex break it out into sub tasks, or consider writing a Class to encapsulate it.
+1. Keep functions short, and try to not go past three lines of indentation. If the function you are writing feels too complex break it out into sub tasks, or consider writing a Class to encapsulate it.
 2. When writing functional async code with callbacks, avoid nesting callbacks.
 
 #### Syntax
@@ -61,6 +61,8 @@ _September 30 2015_
             // Do something
         }
         
+5. Tabs VS. Spaces. Prefer tabs as they are easier to maintain. Your indentation should follow the block of code you are writing. Proper indentation is highly important. 
+        
         
 #### Code Design
 
@@ -71,7 +73,7 @@ _September 30 2015_
 2. Avoid static declerations as much as possible.
 3. Clearly seperate code in an MVC maner. Data models, view layouts, and view controllers. Prefer class extensions over utility classes if it is possible in the language you are working in.
 4. Never write anything twice. You will increase the maintenance. For resources, resource files are a must. Generics and absrtaction in code is highly encouraged where it reduces redundancy and does not introduce unwanted complexity.
-5. Check if their is a library for whatever you are writing before you start writing.
+5. Check if there is a library for whatever you are writing before you start writing.
 
 
 #### HTML and CSS rules for designers
@@ -81,3 +83,4 @@ _September 30 2015_
 3. Organize your stylesheets logically, in sections. They can get long an unweidly and if they are organized into logic regions it makes maintenance for other programmers easier.
 4. Do not add javascript to your HTML file. Instead include it from a seperate .js file.
 5. Use an online parser before commiting any HTML. Make sure your html syntax is correct before commiting.
+6. Properly indent nested elements with tabs. Use an online tool to indent your HTML if you can't yourself.
