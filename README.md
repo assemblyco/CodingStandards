@@ -61,7 +61,7 @@ _September 30 2015_
             // Do something
         }
         
-5. Tabs VS. Spaces. Prefer tabs as they are easier to maintain. Your indentation should follow the block of code you are writing. Proper indentation is highly important. 
+5. Tabs VS. Spaces. Prefer tabs as they are easier to maintain. Your indentation should follow the block of code you are writing. Proper indentation is highly important. Spaces can be used in place of tabs, use 4. Use spaces if your IDE supports them. Be consitant with which ever you choose to use.
         
         
 #### Code Design
